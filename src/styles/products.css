@@ -1,0 +1,54 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.heading div {
+  background-color: rgba(39, 39, 39, 0.274);
+  height: 1px;
+  width: 30vw;
+}
+
+.heading p {
+  color: rgb(77, 77, 77);
+  font-size: 2.7vmax;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+}
+
+
+
+
+.top-left {
+  position: absolute;
+  top: 60%;
+  left: 12%;
+  color: whitesmoke;
+}
+
+.top-left1 {
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  color: whitesmoke;
+
+}
+
+@media only screen and (max-width: 650px) {
+  .top-left {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    color: whitesmoke;
+  }
+
+  .top-left1 {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    color: whitesmoke;
+
+  }
+}

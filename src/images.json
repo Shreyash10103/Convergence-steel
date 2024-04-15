@@ -1,0 +1,26 @@
+{
+  "slider": [
+    "https://images.unsplash.com/photo-1624027492684-327af1fb7559?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3RlZWwlMjBpbmR1c3RyeXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://cdn.pixabay.com/photo/2016/09/02/18/38/factory-1639990_1280.jpg",
+    "https://media.istockphoto.com/id/504114086/photo/metal-smelting-furnace-in-steel-mills.jpg?s=612x612&w=0&k=20&c=sZzw3A3h0pXpaVuFua5TYiEtcrgJv40f3BNIY8rwicc="
+  ],
+  "plates": [
+    {
+      "image": "https://www.tradepass.co.in/Design/product/ar400-steel-plate-partner-tradepass-technology.jpeg",
+      "name": "AR400",
+      "description": "AR400 steel plate is a type of abrasion-resistant steel known for its hardness and toughness. The AR in AR400 stands for abrasion-resistant, and the 400 indicates the Brinell hardness number, which is a measure of hardness. AR400 steel is designed to withstand wear and abrasion, making it suitable for applications where the material comes into contact with abrasive materials or surfaces.",
+      "link": "https://www.tradepass.co.in/product/ar400-steel-plate"
+    },
+    {
+      "image": "https://www.tradepass.co.in/Design/product/ar450-steel-plate-partner-tradepass-technology.jpeg",
+      "name": "AR450",
+      "description": "AR450 steel plate is another type of abrasion-resistant steel similar to AR400 but with a higher level of hardness. The AR still stands for abrasion-resistant, and the number 450 indicates a higher Brinell hardness number compared to AR400. AR450 steel is designed to provide even greater resistance to wear and abrasion in challenging environments.",
+      "link": "https://www.tradepass.co.in/product/ar450-steel-plate"
+    }
+  ],
+  "CRGO": {
+    "image": "https://5.imimg.com/data5/JR/HJ/MY-1166210/crgo-steel-sheet-500x500.jpg",
+    "name": "CRGO coil",
+    "description": "Manufacturing mills of CRGO Steel guarantee the core loss figure at flux density of 1.5 Tesla in case of CRGO conventional grain oriented steel and at 1.7 Tesla in case of CRGO HI-B-Steel and CRGO HI-B-LS Steel. CRGO or Cold Rolled Grain Oriented Steel is available in various grades (generally called M3, M4, M5 & M6)."
+  }
+}

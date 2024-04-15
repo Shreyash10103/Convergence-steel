@@ -1,0 +1,14 @@
+.bb {
+  width: 100%;
+
+}
+
+.bn {
+
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+
+}

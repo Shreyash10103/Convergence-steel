@@ -1,0 +1,19 @@
+/* navbarr.css */
+.navvv {
+  text-align: right;
+  /* Align the navbar content to the right */
+  background-color: transparent !important;
+  /* Set the background color to transparent */
+}
+
+/* Optionally, you can also override any other styles for the navbar */
+.react-navbar-container {
+  background-color: transparent !important;
+  /* Set the background color of the navbar container to transparent */
+}
+
+.react-navbar-burger span,
+.react-navbar-link {
+  color: white !important;
+  /* Set the color of the burger icon and links to white */
+}

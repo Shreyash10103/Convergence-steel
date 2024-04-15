@@ -1,0 +1,42 @@
+.para {
+  font-weight: 200;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.hidden {
+  display: block;
+}
+
+.col23 {
+  align-items: center;
+  padding-left: -2%;
+}
+
+
+.img25 {
+  max-width: 100%;
+  height: auto;
+}
+
+.logooo {
+  margin-left: 7%;
+
+}
+
+.logooo :hover {
+  transform: translateX(20px);
+}
+
+@media (max-width: 700px) {
+
+
+  .para {
+    font-size: 1.5rem;
+  }
+
+
+
+}

@@ -1,0 +1,135 @@
+.services {
+  background-color: black;
+}
+
+.card1 {
+  background-color: white;
+  height: 910px;
+  transform: translateY(-0.4vmax);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:700px) {}
+
+.card6 {
+  margin-top: -8%;
+  background-color: white;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.bg-white {
+  background-color: white;
+
+}
+
+.card {
+
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.image1 {
+  width: full;
+  background-color: blue;
+  justify-content: center;
+  border-top-left-radius: 10px;
+
+
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  padding: 30px;
+  align-items: center;
+
+  justify-content: center;
+}
+
+button {
+  margin-top: auto;
+  position: relative;
+  /* Align the button to the bottom of the card */
+}
+
+.mt-4 {
+  background-color: indigo;
+  border-radius: 10px;
+
+}
+
+.slick-slide {
+  max-width: 100%;
+  /* Ensure images don't exceed container width */
+  height: 100%;
+  /* Allow images to adjust their height proportionally */
+  transition: all 1.5s;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+  cursor: pointer;
+  max-width: 100%;
+
+}
+
+.image1 {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  /* Reset width to allow images to scale */
+}
+
+
+.slick-slide>div:hover {
+  transform: translateY(-0.4vmax);
+  box-shadow: 0px 6px 15px rgba(23, 15, 15, 0.363);
+}
+
+.headd {
+  margin-bottom: 2%;
+}
+
+
+
+.bodyy {
+  font-weight: 345;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .bodyy {
+    font-size: 1.15rem;
+  }
+
+  .card1 {
+    height: 820px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .bodyy {
+    font-size: 1.1rem;
+  }
+}

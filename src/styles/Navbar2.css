@@ -1,0 +1,167 @@
+.navbar12 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 500;
+  position: absolute;
+  padding-top: 2%;
+  padding-left: 32%;
+  transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out, top 0.5s ease-in-out;
+  height: auto;
+  /* Initial height */
+  top: 0;
+  /* Initial top position */
+}
+
+
+
+.navbar12.active {
+  position: fixed;
+  background-color: rgb(245, 245, 245);
+  top: 0;
+  /* Move to the top */
+  transition: height 0.5s ease-in-out top 0.5s ease-in-out, background-color 0.5s ease-in-out, top 0.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Added box shadow */
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar12 {
+    padding-left: 20%;
+  }
+}
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 500;
+  position: absolute;
+  padding-top: 2%;
+  padding-left: 4%;
+}
+
+.navbartot.active {
+  z-index: 500;
+
+}
+
+.navbar2.active {
+  z-index: 500;
+  position: fixed;
+}
+
+.navbar10 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar10 li {
+  list-style: none;
+  margin: 0 2%;
+  padding: 0 .6%;
+  width: 135px;
+}
+
+.navbar10 li a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 550;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+
+.navbar10.active li a {
+  color: rgba(0, 0, 0, 0.785);
+}
+
+.navbar10 li a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  background-color: lightgray;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+}
+
+
+.navbar10 li a:hover::after {
+  transform: scaleX(1);
+}
+
+
+
+.main-btn {
+  color: #ffffff;
+  font-weight: 420;
+  font-size: 1.32rem;
+  border: 0 70%;
+  padding: 0 50%;
+  margin-left: 0%;
+  padding-bottom: 2.5%;
+  width: 300px;
+  height: 50px;
+  margin-top: -7%;
+
+}
+
+
+
+.navbar12 .toggle-icon {
+  display: none;
+}
+
+.navmob {
+  display: none;
+}
+
+@media(max-width: 1000px) {
+  .navbar12 {
+    position: relative;
+    transition: 1.5s height ease-in-out;
+  }
+
+  .navbar10 {
+    transition: 1.5s height ease-in-out;
+  }
+
+  .navbar12.expanded {
+    height: 100vh;
+  }
+
+  .navbar12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 35%;
+    transition: height 0.5s ease-in-out;
+    height: auto;
+    /* Initial height */
+  }
+
+  .navbar12 .toggle-icon {
+    display: block;
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    color: #D9D2C3;
+  }
+
+  .navbar12 .navbar10 {
+    display: none;
+  }
+
+  Navmob {
+    transition: 1s ease-in-out, width 0.3s ease-in-out;
+  }
+}

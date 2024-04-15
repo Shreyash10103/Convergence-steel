@@ -1,0 +1,74 @@
+.footer-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+.logo {
+  width: 67%;
+  height: 14%;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 170%;
+    height: 13%;
+    margin-right: 20px;
+  }
+}
+
+.best-quality-section {
+  font-size: 14px;
+}
+
+.underline {
+  border-bottom: 1px solid white;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.email-id {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer :hover {
+  border: 1px white;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons>* {
+  margin-right: 10px;
+  font-size: 24px;
+}

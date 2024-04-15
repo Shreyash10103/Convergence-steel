@@ -1,0 +1,8 @@
+.video {
+  display: flex;
+  border: "2px red solid";
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 70px;
+
+}

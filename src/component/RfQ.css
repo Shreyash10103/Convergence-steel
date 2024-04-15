@@ -1,0 +1,107 @@
+.form1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 780px;
+  width: 80%;
+  height: 60%;
+  margin-bottom: 300px;
+
+
+  padding: 8rem 3rem;
+  border-radius: 2%;
+}
+
+.mainnn {
+  padding-top: 2%;
+
+
+}
+
+.calculator {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.421);
+  color: whitesmoke;
+  border-radius: 20px;
+
+
+  row-gap: 1rem;
+
+  line-height: 1;
+
+  right: 0%;
+  width: 26%;
+  height: 100%;
+  padding: 3%;
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .calculator {
+    position: relative;
+    width: 90%;
+    top: -45%;
+
+
+
+  }
+
+  .mainnn {
+    padding-top: 0%;
+
+
+
+  }
+
+  .form1 {
+    height: 80%;
+    width: 100%;
+  }
+}
+
+.form-select {
+  margin-bottom: 20px;
+}
+
+.bntic {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cx {
+
+  background-color: rgb(106, 0, 255);
+  border-radius: 5px;
+  width: 14rem;
+  color: white;
+  align-self: center;
+  font: 400 1rem sans-serif;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
+.mainnn {
+  background-color: rgba(50, 80, 168, 0.331);
+  height: 250vh;
+  display: grid;
+  place-items: center;
+}
+
+.ti {
+  text-align: center;
+  font-size: 2.7rem;
+  color: cadetblue;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-weight: lighter;
+}

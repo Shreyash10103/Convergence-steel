@@ -1,0 +1,31 @@
+.toggle-button {
+  display: block;
+  margin: 0 auto;
+  /* Center the button horizontally */
+  padding: 10px 20px;
+  /* Add padding to the button */
+  background-color: #007bff;
+  /* Change the background color to blue */
+  color: #fff;
+  /* Change the text color to white */
+  border: none;
+  /* Remove the button border */
+  border-radius: 5px;
+  /* Add border radius */
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
+  transition: background-color 0.3s;
+  /* Smooth transition for background color change */
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+.chatbot-container {
+  padding: 60px 7%;
+  background: none;
+
+  /* Adjust the value according to your design */
+}

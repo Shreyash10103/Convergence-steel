@@ -1,0 +1,39 @@
+.main-btn {
+  line-height: 1.5rem;
+  background-color: #e95050c0;
+  border: 0.1875rem solid var(--primary-color);
+  color: var(--white-color);
+  text-transform: capitalize;
+  -webkit-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s;
+
+}
+
+.main-btn:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+
+
+
+
+
+.image {
+  height: 40%;
+  width: 20%;
+  z-index: 10000;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+
+    width: 45%;
+    z-index: 10000;
+    margin-top: 15px;
+  }
+
+}

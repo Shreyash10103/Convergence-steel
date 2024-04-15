@@ -1,0 +1,42 @@
+.ProductItem {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.prodact {
+  position: fixed;
+  background-color: rgb(245, 245, 245);
+  top: 92px;
+  width: 100%;
+  padding-left: 38.2%;
+  /* Move to the top */
+
+
+
+}
+
+.itemact {
+
+  color: grey;
+  text-decoration: none;
+  margin: 1vmax 1.2vmax;
+  font-weight: 300;
+  font-size: 1.9vmax;
+
+}
+
+.item {
+  color: grey;
+  text-decoration: none;
+  margin: 1vmax 1.2vmax;
+  font-weight: 300;
+  font-size: 1.9vmax;
+}
+
+.item :hover {
+  color: crimson;
+}

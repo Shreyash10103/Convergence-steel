@@ -1,0 +1,94 @@
+.itemss {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.fd {
+  width: 100%;
+  height: 90%;
+  margin-left: 2%;
+}
+
+.ddddddd {
+  text-decoration: none;
+}
+
+
+
+
+
+
+.item-container {
+  width: 400px;
+  text-align: justify;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+.item-image {
+  width: 100%;
+  height: 250px;
+
+  transition: all 0.5s;
+
+}
+
+.item-image :hover {
+  transform: translateY(-0.4vmax);
+
+  box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+
+
+}
+
+
+.rating {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.product_type {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #283c3f;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+
+
+.btn-add-bag {
+
+  background-color: transparent;
+  /* Set background color to transparent */
+  padding: 7px 17px;
+  /* Adjust padding as needed */
+  border: 2px solid black;
+  /* Set border to black with 2px width */
+  margin: 0;
+  margin-bottom: 0;
+  /* Remove margin */
+  display: inline-block;
+  /* Ensure it behaves as a block element */
+  transition: all 0.5s;
+
+
+
+
+}
+
+.btn-add-bag:hover {
+  transform: translateY(-0.4vmax);
+  box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
