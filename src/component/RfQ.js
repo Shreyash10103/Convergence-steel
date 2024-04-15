@@ -101,8 +101,8 @@ const RfQ = () => {
 
           </select>
 
-          {product == "n" ? <div><div className='form-group'><label htmlFor='occupation' className='form-label'>Thickness</label> <input className='form-control' name='username' />
-          </div><div className='form-group'><label htmlFor='occupation' className='form-label'>Grade</label> <br /><input onChange={(e) => handleCheckboxChange(e)} type="checkbox" id="html" name="fav_language" value="0.23" />
+          {product == "n" ? <div><div className='form-group'><label htmlFor='occupation' className='form-label'>Grade</label> <input className='form-control' name='username' />
+          </div><div className='form-group'><label htmlFor='occupation' className='form-label'>Thickness</label> <br /><input onChange={(e) => handleCheckboxChange(e)} type="checkbox" id="html" name="fav_language" value="0.23" />
               <label for="0.23">0.23</label><br />
               <input onChange={(e) => handleCheckboxChange(e)} type="checkbox" id="css" name="fav_language" value="0.27" />
               <label for="0.27">0.27</label><br />
@@ -111,7 +111,7 @@ const RfQ = () => {
               <input onChange={(e) => handleCheckboxChange(e)} type="checkbox" id="javascript" name="fav_language" value="0.35" />
               <label for="javascript">0.35</label><br /><label htmlFor='Email' className='form-label'>Others : <input onChange={(e) => setgrade(e.target.value)} name='crgo_gr' /></label><br /><label htmlFor='Email' className='form-label'>Quantity in KGs </label>
               <input className='form-control' onChange={(e) => setquantity(e.target.value)} name='crgo_qt' /></div>
-          </div> : product == "AR" ? <div><label htmlFor='Email' className='form-label'>Grade </label><br /><input onChange={(e) => handleCheckboxChange(e)} type="checkbox" id="html" name="fav_language" value="AR400" />
+          </div> : product == "AR" ? <div><label htmlFor='occupation' className='form-label'>Thickness</label> <input className='form-control' name='username' /><label htmlFor='Email' className='form-label'>Grade </label><br /><input onChange={(e) => handleCheckboxChange(e)} type="checkbox" id="html" name="fav_language" value="AR400" />
             <label for="html">AR400</label><br />
             <input onChange={(e) => handleCheckboxChange(e)} type="checkbox" id="css" name="fav_language" value="AR450" />
             <label for="css">AR450</label><br />

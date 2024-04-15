@@ -100,7 +100,7 @@ const ProductItems = () => {
               Mechanical Properties of AR steel plates:</p>
           </p>
 
-          <Table striped="columns">
+          <Table responsive>
             <thead>
               <tr>
                 <th>Grade</th>

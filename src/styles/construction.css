@@ -4,6 +4,22 @@
   margin-bottom: 30px;
 }
 
+/* styles.css */
+
+/* Default style for .hhg class */
+.hhg {
+  display: none;
+  /* Initially hide the component */
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 1024px) {
+  .hhg {
+    display: block;
+    /* Show the component on large screens */
+  }
+}
+
 .rgt {
   margin-left: 60%;
 }
