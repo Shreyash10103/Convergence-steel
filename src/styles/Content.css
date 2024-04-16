@@ -21,7 +21,7 @@
 
 .kkk {
   font-size: 30px;
-  margin-top: -5%;
+  margin-top: -4%;
   font-weight: 400;
   margin-bottom: 1%;
 }
@@ -65,6 +65,9 @@
     padding: 10px;
   }
 
+  .kkk {
+    margin-top: 1%;
+  }
 
 
   .text2 {

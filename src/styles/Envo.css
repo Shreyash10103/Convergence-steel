@@ -8,3 +8,22 @@ h2 {
   margin-top: 40px;
   color: rgb(208, 106, 106);
 }
+
+/* Envo.css */
+
+.assadsdwd {
+  display: none;
+  /* Initially hide the component */
+}
+
+
+
+/* Hide the hhg class on small screens */
+@media screen and (min-width: 1024px) {
+  .assadsdwd {
+    display: block;
+    /* Show the component on large screens */
+  }
+}
+
+/* Additional CSS styles for larger screens */

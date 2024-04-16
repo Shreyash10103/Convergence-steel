@@ -85,7 +85,8 @@ const ProductItems = () => {
             </div>
           </div>
           <p><p className='ffff' style={{ fontWeight: 'bold' }}>
-            How the Quenched & Tempered Process Creates AR Plate</p>
+            <div className='dskdksc'>          How the Quenched & Tempered Process Creates AR Plate</div>
+          </p>
             AR material is produced by quenching and tempering forged steel blocks, or ingots. During this process, the grain structure is changed to increase toughness and encourage formability (or, to be less brittle), and results in through-hardening of the material.
 
             Quenching and tempering (Q&T) is a two-part process:<br />
@@ -99,64 +100,66 @@ const ProductItems = () => {
             <p className='ffff' style={{ fontWeight: 'bold' }}>
               Mechanical Properties of AR steel plates:</p>
           </p>
+          <p className='ffff'>
 
-          <Table responsive>
-            <thead>
-              <tr>
-                <th>Grade</th>
-                <th>Thickness S(mm)</th>
-                <th>Yield Strength Rp0,2(N/mm2)
+            <Table responsive>
+              <thead>
+                <tr>
+                  <th>Grade</th>
+                  <th>Thickness S(mm)</th>
+                  <th>Yield Strength Rp0,2(N/mm2)
 
-                </th>
-                <th>Rm(N/mm2)</th>
-                <th>Elongation A5%</th>
-                <th>Impact Strength KV-20C</th>
+                  </th>
+                  <th>Rm(N/mm2)</th>
+                  <th>Elongation A5%</th>
+                  <th>Impact Strength KV-20C</th>
 
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>AR400</td>
-                <td>2,5-12</td>
-                <td>1050</td>
-                <td>1250</td>
-                <td>10,0</td>
-                <td>25</td>
-              </tr>
-              <tr>
-                <td>AR450</td>
-                <td>2,5-12</td>
-                <td>1200</td>
-                <td>1500</td>
-                <td>8,0</td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>AR500</td>
-                <td>2,5-12</td>
-                <td>1250</td>
-                <td>1600</td>
-                <td>6,0</td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>AR550</td>
-                <td>2,5-12</td>
-                <td>1400</td>
-                <td>1800</td>
-                <td>10,0</td>
-                <td>22</td>
-              </tr>
-              <tr>
-                <td>AR600</td>
-                <td>2,5-12</td>
-                <td>1550</td>
-                <td>2100</td>
-                <td>8,5</td>
-                <td>13</td>
-              </tr>
-            </tbody>
-          </Table>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>AR400</td>
+                  <td>2,5-12</td>
+                  <td>1050</td>
+                  <td>1250</td>
+                  <td>10,0</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>AR450</td>
+                  <td>2,5-12</td>
+                  <td>1200</td>
+                  <td>1500</td>
+                  <td>8,0</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>AR500</td>
+                  <td>2,5-12</td>
+                  <td>1250</td>
+                  <td>1600</td>
+                  <td>6,0</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>AR550</td>
+                  <td>2,5-12</td>
+                  <td>1400</td>
+                  <td>1800</td>
+                  <td>10,0</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>AR600</td>
+                  <td>2,5-12</td>
+                  <td>1550</td>
+                  <td>2100</td>
+                  <td>8,5</td>
+                  <td>13</td>
+                </tr>
+              </tbody>
+            </Table>
+          </p>
 
 
 

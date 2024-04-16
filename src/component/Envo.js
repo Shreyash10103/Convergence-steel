@@ -4,7 +4,7 @@ import '../styles/Envo.css'
 
 const Envo = () => {
   return (
-    <div>
+    <div className='assadsdwd'>
       <h2>Committed to a Greener Future</h2>
       <Carousel1 />
 

@@ -45,6 +45,17 @@
   text-align: justify;
 }
 
+@media only screen and (max-width: 600px) {
+  .ppp p {
+    line-height: 1.6;
+    font-size: 0.7;
+  }
+
+  .dskdksc {
+    padding-top: 20px;
+  }
+}
+
 .ppp h3 {
   margin-top: 10px;
   margin-bottom: 15px;
@@ -100,7 +111,7 @@
 
 .Product_description {
   color: hsl(188, 22%, 20%);
-  font-size: 16px;
+  font-size: 1.0rem;
   line-height: 1.7rem;
   text-align: justify;
 

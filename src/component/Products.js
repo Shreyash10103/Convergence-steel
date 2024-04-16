@@ -10,8 +10,8 @@ const Products = () => {
     <>
       <div className='image2'>
         <img src='https://www.inventiva.co.in/wp-content/uploads/2023/05/Tools-16.jpg'  ></img>
-        <h1 class="top-left">Building a network with durability</h1>
-        <h5 class="top-left1">Serving the world with our versatile range of steel products</h5>
+        <h1 class="top-left">Forging Connections with Durability</h1>
+        <h5 class="top-left1"> Unleashing Possibilities with Our Versatile Steel Solutions</h5>
       </div>
       <Product />
 
