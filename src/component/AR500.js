@@ -34,19 +34,15 @@ const AR500 = () => {
 
                 AR450 steel has more surface hardness than AR400, good ductility and formability, as well as being impact resistant, as previously mentioned. It has a tensile strength of 214 KSI, yield strength of 181 KSI, and hardness of 429-495 Brinell. Some other important characteristics can be found below:<br />
                 <ul><li>
-                  Welding = Good - CEV max 0.45, CET max 0.33, PCM max 0.32</li>
-                  <li> Impact strength = Longitudinal ≥ 20 ft.lbs</li>
-                  <li>  Corrosion Resistance = Minimal</li>
-                  <li>Machining/Grinding = Not Recommended</li>
-                  <li>Wear Resistance = Great</li>
-                  <li>Tensile Strength (MPa) =	1475,
-                    Yield Strength (MPa) =	1250,
-                    Hardness (HBW) =	420-470</li>
+                  Welding = Decent</li>
+                  <li>Machining = Good</li>
+                  <li>Abrasion Resistance = Excellent</li>
+                  <li>Corrosion Resistance = Good</li>
+                  <li>Forming = Fair</li>
 
 
 
                 </ul>
-                Overall, AR450 plates are a good choice for applications where there is a high risk of wear and tear and where a long service life is required.
 
               </p>
             </div>
