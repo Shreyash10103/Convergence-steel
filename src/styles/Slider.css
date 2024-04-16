@@ -22,6 +22,14 @@
   transition: background-color 0.3s;
 }
 
+@media (max-width: 600px) {
+  .main1112 {
+    background-color: rgba(128, 128, 128, 0.607);
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.586);
+  }
+}
+
 .main1112:hover {
 
   background-color: rgba(255, 0, 0, 0);

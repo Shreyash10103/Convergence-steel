@@ -19,6 +19,12 @@
 
 }
 
+@media only screen and (max-width: 650px) {
+  .prodact {
+    padding-left: 19%;
+  }
+}
+
 .itemact {
 
   color: grey;

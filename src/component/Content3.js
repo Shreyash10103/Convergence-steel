@@ -9,7 +9,7 @@ const Content3 = () => {
         <div className="row">
           <div className="col-lg-6">
 
-            <h5 className='para'> Convergence Steel is an Indian industrial startup with a dominant presence in the steel sector. The company provides best-in-class, cost-effective steel plates , CRGO coils and Inserts. It has undertaking ambitious expansion plans to be known as one of the most efficient & innovative steel-provider in the world. Convergence Steel is determined to improve lives and adhere to its core values.
+            <h5 className='para'> Convergence Steel is an Indian industrial startup with a dominant presence in the steel sector. The company provides best-in-class, cost-effective AR steel plates , CRGO coils and Inserts. It has undertaking ambitious expansion plans to be known as one of the most efficient & innovative steel-provider in the world. Convergence Steel is determined to improve lives and adhere to its core values.
             </h5>
 
           </div>

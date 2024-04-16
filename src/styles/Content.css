@@ -16,7 +16,7 @@
   font-size: 1.5rem;
   line-height: 2.5rem;
   line-height: 1.5;
-  text-align: left;
+  text-align: justify;
 }
 
 .kkk {
@@ -66,12 +66,16 @@
   }
 
   .kkk {
-    margin-top: 1%;
+    margin-top: 5%;
   }
 
 
   .text2 {
+    font-weight: lighter;
     font-size: 1.2rem;
+
+    line-height: 1.5;
+    text-align: justify;
   }
 
 
