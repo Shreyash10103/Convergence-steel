@@ -32,7 +32,7 @@ const AR500 = () => {
                 Properties of AR500 Steel Plate: </h6>
               <p className='ffff' style={{ color: 'black' }}>
 
-                AR450 steel has more surface hardness than AR400, good ductility and formability, as well as being impact resistant, as previously mentioned. It has a tensile strength of 214 KSI, yield strength of 181 KSI, and hardness of 429-495 Brinell. Some other important characteristics can be found below:<br />
+                AR500 steel has more surface hardness than AR450, good ductility and formability, as well as being impact resistant. Some other important characteristics can be found below:<br />
                 <ul><li>
                   Welding = Decent</li>
                   <li>Machining = Good</li>
